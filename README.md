@@ -2,6 +2,7 @@
 Site Deployed with AWS, Terraform, and Ansible
 
 SETUP
+
 *Created Ubuntu 16 server
 *Using Python 2.7.12 until Ansible offers smoother support for Python 3
 *apt-get update
