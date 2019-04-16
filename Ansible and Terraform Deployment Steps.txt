@@ -23,3 +23,11 @@ IAM AND DNS SETUP
 *Route53 Reusable Delegation Set to keep same name servers with any new domains
 *aws route53 create-reusable-delegation-set --caller-reference 1224 --profile superterransible
 *edited name servers in AWS
+
+CREDENTIALS AND VARIABLES
+*NOTE: not uploading terraform.tfvars file to GitHub for security reasons (included in gitignore)
+*cd into terransible, touch main.tf terraform.tfvars variables.tf
+*touch userdata aws_hosts wordpress.yml s3update.yml
+*added provider (AWS) in main.tf
+*added variables in variables.tf
+*added profile and region to terraform.tfvars
