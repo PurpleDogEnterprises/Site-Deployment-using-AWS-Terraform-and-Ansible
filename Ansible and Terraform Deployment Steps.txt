@@ -15,3 +15,11 @@ SETUP
 *ssh-add -l
 *disabled host key checking
 *mkdir terransible
+
+IAM AND DNS SETUP
+*added user terransible in IAM and granted programmatic access
+*logged into server, ran aws configure --profile superterransible
+*entered AWS access keys
+*Route53 Reusable Delegation Set to keep same name servers with any new domains
+*aws route53 create-reusable-delegation-set --caller-reference 1224 --profile superterransible
+*edited name servers in AWS
