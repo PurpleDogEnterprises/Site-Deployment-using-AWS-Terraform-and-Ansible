@@ -36,3 +36,12 @@ TERRAFORM INIT AND IAM
 *ran terraform init from terransible directory
 *added S3 access via resources and policies in main.tf
 *ran terraform plan to check
+
+CREATING THE VPC
+*added data variable in variables.tf
+*defined VPC in main.tf
+*edited terraform.tfvars
+*added CIDR variable in variables.tf
+*added internet gateway in main.tf
+*added public and private route tables to main.tf
+*
