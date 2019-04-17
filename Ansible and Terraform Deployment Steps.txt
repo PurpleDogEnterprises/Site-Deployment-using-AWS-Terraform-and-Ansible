@@ -31,3 +31,8 @@ CREDENTIALS AND VARIABLES
 *added provider (AWS) in main.tf
 *added variables in variables.tf
 *added profile and region to terraform.tfvars
+
+TERRAFORM INIT AND IAM
+*ran terraform init from terransible directory
+*added S3 access via resources and policies in main.tf
+*ran terraform plan to check
