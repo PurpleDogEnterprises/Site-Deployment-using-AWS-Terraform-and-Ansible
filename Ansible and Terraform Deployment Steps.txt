@@ -44,6 +44,9 @@ CREATING THE VPC
 *added subnet resources in main.tf
 *added "cidrs" variable to variables.tf
 *added RDS resource subnets in main.tf
+*added rds subnet group in main.tf
+*added subnet associations in main.tf
+*
 *edited terraform.tfvars
 *added CIDR variable in variables.tf
 *added internet gateway in main.tf
