@@ -40,6 +40,10 @@ TERRAFORM INIT AND IAM
 CREATING THE VPC
 *added data variable in variables.tf
 *defined VPC in main.tf
+-SUBNETS
+*added subnet resources in main.tf
+*added "cidrs" variable to variables.tf
+*added RDS resource subnets in main.tf
 *edited terraform.tfvars
 *added CIDR variable in variables.tf
 *added internet gateway in main.tf
