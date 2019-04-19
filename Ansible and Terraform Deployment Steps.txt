@@ -56,4 +56,7 @@ CREATING THE SECURITY GROUPS
 *added CIDR variable in variables.tf
 *added internet gateway in main.tf
 *added public and private route tables to main.tf
-*
+
+CREATING THE S3 BUCKET
+*added S3 VPC endpoint in main.tf
+*added S3 code bucket to main.tf
