@@ -46,7 +46,12 @@ CREATING THE VPC
 *added RDS resource subnets in main.tf
 *added rds subnet group in main.tf
 *added subnet associations in main.tf
-*
+
+CREATING THE SECURITY GROUPS
+*added dev security group in main.tf
+*added public security group in main.tf
+*added private security group in main.tf
+*added RDS security group in main.tf
 *edited terraform.tfvars
 *added CIDR variable in variables.tf
 *added internet gateway in main.tf
