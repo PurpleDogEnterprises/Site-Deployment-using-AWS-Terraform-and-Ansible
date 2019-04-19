@@ -1,9 +1,15 @@
 variable "aws_region" {}
 variable "aws_profile" {}
-data "aws_availability_zones" "available" {}
+data 	 "aws_availability_zones" "available" {}
 variable "localip" {}
 variable "vpc_cidr" {}
 
 variable "cidrs" {
   type = "map"
 }
+
+variable "domain_name" {}
+variable "db_instance_class" {}
+variable "dbname" {}
+variable "dbuser" {}
+variable "dbpassword" {}
