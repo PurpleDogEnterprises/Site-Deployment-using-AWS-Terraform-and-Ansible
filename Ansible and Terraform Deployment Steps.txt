@@ -64,3 +64,6 @@ CREATING THE S3 BUCKET
 CREATING THE ELB
 *added resource to main.tf
 *added to terraform.tfvars and variables.tf
+
+CRETING THE AMI
+*added to main.tf
