@@ -60,3 +60,7 @@ CREATING THE SECURITY GROUPS
 CREATING THE S3 BUCKET
 *added S3 VPC endpoint in main.tf
 *added S3 code bucket to main.tf
+
+CREATING THE ELB
+*added resource to main.tf
+*added to terraform.tfvars and variables.tf
