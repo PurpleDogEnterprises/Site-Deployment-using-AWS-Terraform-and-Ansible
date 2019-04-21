@@ -70,4 +70,8 @@ CRETING THE AMI
 
 CONFIGURING THE LAUNCH CONFIGURATION AND AUTOSCALING GROUP
 *added LC and ASG resources to main.tf
-**added to terraform.tfvars and variables.tf
+*added to terraform.tfvars and variables.tf
+
+CREATING ROUTE53 RECORDS
+*added resource to main.tf
+*added to terraform.tfvars and variables.tf
