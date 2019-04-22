@@ -75,3 +75,7 @@ CONFIGURING THE LAUNCH CONFIGURATION AND AUTOSCALING GROUP
 CREATING ROUTE53 RECORDS
 *added resource to main.tf
 *added to terraform.tfvars and variables.tf
+
+CREATING THE ANSIBLE PLAYBOOKS
+*created wordpress.yml
+*created s3update.yml
