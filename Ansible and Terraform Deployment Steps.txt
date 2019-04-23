@@ -79,3 +79,9 @@ CREATING ROUTE53 RECORDS
 CREATING THE ANSIBLE PLAYBOOKS
 *created wordpress.yml
 *created s3update.yml
+
+TERRAFORM APPLY
+*confirmed SSH host-checking set to FALSE
+*added key to SSH agent
+*ran terraform plan
+*ran terraform apply
